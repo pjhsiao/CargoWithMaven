@@ -13,11 +13,11 @@
 	<h2>In tomcat-users.xml role configuration</h2>
 	     &lt;role rolename="admin-gui"/&gt;
 	     <br/>
-		 &lt;'role rolename="manager"/&gt;
+		 &lt;role rolename="manager"/&gt;
 		 <br/>
-		 &lt;'role rolename="manager-gui"/&gt;
+		 &lt;role rolename="manager-gui"/&gt;
 		 <br/>
-		 &lt;'role rolename="manager-script"/&gt;
+		 &lt;role rolename="manager-script"/&gt;
 		 <br/>
 		 &lt;user username="admin" password="admin" roles="admin-gui,manager,manager-gui,manager-script"/&gt;
 	
@@ -26,7 +26,7 @@
 		mvn cargo:deployer-deploy
     <br/>  
         mvn cargo:deployer-redeploy
-    <br/>
+    <br/><br/>
     	By Hsiao
 </body>
 </html>
